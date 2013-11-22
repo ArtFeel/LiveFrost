@@ -5,7 +5,6 @@ void LF_refreshAllSubscribedViewsApplierFunction(const void *value, void *contex
 @interface LFDisplayBridge ()
 
 @property (nonatomic, readwrite, assign) CFMutableSetRef subscribedViews;
-@property (nonatomic, readonly, strong) CADisplayLink *displayLink;
 
 @end
 
